@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: $color2;
+    font-size: 4rem;
+    font-family: $font2;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0 0 10px $shadow1;
+  }
+
+  h3 {
+    color: $colortext;
+    font-size: 1.2rem;
+    font-family: $font3;
+    text-align: center;
+    text-shadow: 0 0 10px $shadow1;
+  }
+
+  input {
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}

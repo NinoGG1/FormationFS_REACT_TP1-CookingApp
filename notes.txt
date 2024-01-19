@@ -1,0 +1,9 @@
+https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+
+1/ Aller chercher les données avec Axios
+
+2/ Stocker ces données dans le state (useState)
+
+3/ Afficher ces données avec un .map, mettre la logique des cartes dans un composant Card.js
+
+4/ Faire un input recherche
